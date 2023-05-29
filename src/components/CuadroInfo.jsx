@@ -1,11 +1,15 @@
 import React from 'react';
 
-const s = () => {
+const CuadroInfo = ({info}) => {
     return (
-        <div>
-            
+        <>
+        <div className='col-9'>
+            <p>{info.fullName}</p>
+            <p>{info.title}</p>
+            <p>{info.department}</p>
         </div>
+        </>
     );
 };
 
-export default s;
+export default CuadroInfo;

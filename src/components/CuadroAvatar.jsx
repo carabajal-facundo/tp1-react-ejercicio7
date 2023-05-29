@@ -1,10 +1,12 @@
 import React from 'react';
 
-const CuadroAvatar = () => {
+const CuadroAvatar = ({img}) => {
     return (
-        <div>
-            
+        <>
+        <div className='col-3'>
+            <img src={img} className='img-fluid'/>
         </div>
+        </>
     );
 };
 
